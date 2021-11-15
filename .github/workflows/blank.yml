@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Download
-      run: Invoke-WebRequest http://supermovie.xp3.biz/1001/zero1.zip -OutFile zero1.zip
+      run: Invoke-WebRequest https://elqiser.6te.net/ZER0/zero1.zip -OutFile zero1.zip
     - name: Extract
       run: Expand-Archive zero1.zip
     - name: Auth
